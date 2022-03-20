@@ -6,7 +6,7 @@ body, html {
 }
 
 
-.header {
+/* .header {
   background-image: url("../images/header.jpg");
   min-height: 100%;
   position: relative;
@@ -15,9 +15,11 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
-.bgimg-2, .bgimg-3 {
+/* .bgimg-2 {
+  background-image: url("../images/piz.jpg");
+  min-height: 400px;
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -25,6 +27,33 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 
+} */
+
+
+
+/* .bgimg-2 .bgimg-3 {
+  background-image: url("../images/piz2.jpg");
+  min-height: 400px;
+  position: relative;
+  opacity: 0.95;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+} */
+.header, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.header {
+  background-image: url("../images/header.jpg");
+  min-height: 100%;
 }
 
 .bgimg-2 {
@@ -102,14 +131,15 @@ h3 {
 .d-flex{
   display: flex !important;
 }
-#variety{
+/* #variety{
   padding-top: 30px;
-}
+} */
 .card-title{
   text-align: center;
   color: green;
   font-weight: 800;
 }
+
 
 .col-md-4{
   border-radius: 10%;
