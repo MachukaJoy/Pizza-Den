@@ -22,8 +22,6 @@ body, html {
   position: relative;
 }
 
-
-
 .bgimg-2 {
   background-image: url("../images/piz.jpg");
   min-height: 400px;
@@ -57,18 +55,8 @@ h3 {
   font: 20px "Lato", sans-serif;
   color: #111;
 }
-.content {
-  padding: 16px;
-}
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
 
-.sticky + .content {
-  padding-top: 60px;
-}
+
 .controls-top h2{
   color: rgb(235, 112, 30);
   padding-top: 20px;
@@ -100,9 +88,7 @@ h3 {
 .d-flex{
   display: flex !important;
 }
-/* #variety{
-  padding-top: 30px;
-} */
+
 .card-title{
   text-align: center;
   color: green;
