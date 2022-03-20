@@ -60,7 +60,15 @@ h3 {
   font: 20px "Lato", sans-serif;
   color: #111;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
+.sticky + .content {
+  padding-top: 60px;
+}
 .controls-top h2{
   color: rgb(235, 112, 30);
   padding-top: 20px;
