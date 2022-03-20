@@ -1,0 +1,96 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+
+.header {
+  background-image: url("../images/header.jpg");
+  min-height: 100%;
+  position: relative;
+  opacity: 0.90;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bgimg-2 {
+  background-image: url("../images/piz.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("../images/piz2.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+.controls-top h2{
+  color: rgb(235, 112, 30);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+}
+#about-us{
+  min-height: 70vh;
+  align-items: center;
+
+}
+#about-us .col-sm-12 {
+  background-color: #ffa500;
+}
+.about-pic {
+  /* background-color: #ffa500; */
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+}
+#about-us .contentaboutus{
+  padding: 65px 50px 85px;
+  width: 100%;
+  /* background-color: #ffa500; */
+  float:right;
+  text-align: justify;
+  overflow-x: hidden;
+}
+.d-flex{
+  display: flex !important;
+}
+
