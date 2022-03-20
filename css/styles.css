@@ -102,7 +102,19 @@ h3 {
 .d-flex{
   display: flex !important;
 }
+#variety{
+  padding-top: 30px;
+}
+.card-title{
+  text-align: center;
+  color: green;
+  font-weight: 800;
+}
 
+.col-md-4{
+  border-radius: 10%;
+  padding: 10px;
+}
  /* Turn off parallax scrolling for tablets and phones */
  @media only screen and (max-device-width: 1024px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
