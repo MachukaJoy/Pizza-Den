@@ -178,6 +178,21 @@ td,th{
   padding-left: 5%;
   color: #ffa500;
 }
+footer>div {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+footer>div>img {
+  padding: 20px;
+}
+
+.foot-img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
  /* Turn off parallax scrolling for tablets and phones */
  @media only screen and (max-device-width: 1024px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
