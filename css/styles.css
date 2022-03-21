@@ -80,7 +80,6 @@ h3 {
 #about-us .contentaboutus{
   padding: 65px 50px 85px;
   width: 100%;
-  /* background-color: #ffa500; */
   float:right;
   text-align: justify;
   overflow-x: hidden;
@@ -107,7 +106,6 @@ h3 {
 }
 .order{
   background-attachment: fixed;
-  background-image: url("../images/slider2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -197,8 +195,8 @@ footer>div>img {
   flex-wrap: wrap;
 }
  /* Turn off parallax scrolling for tablets and phones */
- @media only screen and (max-device-width: 1024px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
+@media only screen and (max-device-width: 1024px) {
+  .header, .bgimg-2, .bgimg-3 {
     background-attachment: scroll;
   }
 }
@@ -247,12 +245,5 @@ h1 {
 #head{
   padding-top: 30%;
 }
-.col-md-3{
-  padding-left: 20%;
-}
-.iframe{
-  width: 300px;
-  margin-right: 5%;
-  margin-left: 10%;
-}
+
 }
